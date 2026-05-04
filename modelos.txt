@@ -1,0 +1,40 @@
+
+
+| Modelo do Sensor | Protocolo | Biblioteca Recomendada (Autor/Empresa) | Portas Sugeridas (ESP8266) |
+| :--- | :--- | :--- | :--- |
+| **BME280 / BMP280** | I2C | Adafruit BME280 Library (Adafruit) | D2 (SDA), D1 (SCL) |
+| **DHT11 / DHT22** | Digital (1-Wire) | DHT sensor library (Adafruit) | D3 |
+| **DS18B20** | One-Wire | DallasTemperature (Miles Burton) | D4 |
+| **MPU-6050** | I2C | Adafruit MPU6050 (Adafruit) | D2 (SDA), D1 (SCL) |
+| **BH1750 (Lux)** | I2C | BH1750 (Christopher Laws) | D2 (SDA), D1 (SCL) |
+| **VL53L0X (Laser)** | I2C | VL53L0X (Pololu) | D2 (SDA), D1 (SCL) |
+| **MAX30102 (Oxi.)** | I2C | SparkFun MAX3010x (SparkFun) | D2 (SDA), D1 (SCL) |
+| **DS3231 (RTC)** | I2C | RTClib (Adafruit) | D2 (SDA), D1 (SCL) |
+| **ADS1115 (ADC)** | I2C | Adafruit ADS1X15 (Adafruit) | D2 (SDA), D1 (SCL) |
+| **Neo-6M (GPS)** | UART | TinyGPS++ (Mikal Hart) | D7 (RX), D8 (TX)* |
+| **MH-Z19B (CO2)** | UART | MHZ19 (Strange-v) | D7 (RX), D8 (TX)* |
+| **PMSA003 (Ar)** | UART | PMS Library (Fu Kai) | D7 (RX), D8 (TX)* |
+| **RC522 (RFID)** | SPI (Soft) | MFRC522 ([github.com/miguelbalboa](https://github.com/miguelbalboa)) | D8(CS), D7(MOSI), D4(MISO), D3(SCK) |
+| **HC-SR04 (Ultra)** | Digital | NewPing (Tim Eckel) | D3 (Trig), D4 (Echo) |
+| **TCS3200 (Cor)** | Digital | MD_TCS230 (MajicDesigns) | D0, D3, D4, D7, D8 |
+| **CCS811 (VOC)** | I2C | Adafruit CCS811 (Adafruit) | D2 (SDA), D1 (SCL) |
+| **MLX90614 (IR)** | I2C | Adafruit MLX90614 (Adafruit) | D2 (SDA), D1 (SCL) |
+| **AHT10 / AHT20** | I2C | Adafruit AHTX0 (Adafruit) | D2 (SDA), D1 (SCL) |
+| **SCD40 / SCD41** | CO2 (NDIR - Alta Precisão) | Sensirion I2C SCD4x (Sensirion) | D2 (SDA), D1 (SCL) |
+| **SGP30** | Qualidade do Ar (TVOC/eCO2) | Adafruit SGP30 (Adafruit) | D2 (SDA), D1 (SCL) |
+| **MAX31855** | Termopar Tipo K (Altas Temps) | Adafruit MAX31855 (Adafruit) | D8(CS), D7(MOSI), D4(MISO), D3(SCK)* |
+| **APDS-9960** | Gestos, Cor e Proximidade | Adafruit APDS9960 (Adafruit) | D2 (SDA), D1 (SCL) |
+| **TSL2591** | Luminosidade (Espectro IR/Vis) | Adafruit TSL2591 (Adafruit) | D2 (SDA), D1 (SCL) |
+| **HMC5883L / QMC5883L**| Bússola Digital (Magnetômetro) | Adafruit HMC5883 Unified (Adafruit) | D2 (SDA), D1 (SCL) |
+| **SHT31 / SHT40** | Temp. e Umid. (Alta Precisão) | Adafruit SHT31 (Adafruit) | D2 (SDA), D1 (SCL) |
+| **LPS22HB / LPS25HB** | Pressão Barométrica (Fina) | Adafruit LPS2X (Adafruit) | D2 (SDA), D1 (SCL) |
+| **AS7262** | Espectrômetro de Luz Visível | Adafruit AS726X (Adafruit) | D2 (SDA), D1 (SCL) |
+| **INA219** | Medidor de Corrente e Tensão | Adafruit INA219 (Adafruit) | D2 (SDA), D1 (SCL) |
+| **MAX30105** | Partículas (Fumaça/Poeira) | SparkFun Particle (SparkFun) | D2 (SDA), D1 (SCL) |
+| **TFMini-S** | LiDAR (Distância a Laser) | TFMini (Budry) | D7 (RX), D8 (TX)** |
+| **DFPlayer Mini** | Módulo de Som/MP3 (Feedback) | DFRobotDFPlayerMini (DFRobot) | D7 (RX), D8 (TX)** |
+| **MLX90640** | Câmera Térmica (Matriz IR) | Adafruit MLX90640 (Adafruit) | D2 (SDA), D1 (SCL) |
+| **MCP4725** | DAC (Conversor Digital-Analógico)| Adafruit MCP4725 (Adafruit) | D2 (SDA), D1 (SCL) |
+| **BNO055** | Orientação Absoluta (IMU 9-Eixos)| Adafruit BNO055 (Adafruit) | D2 (SDA), D1 (SCL) |
+| **SI1145** | Índice UV, IR e Luz Visível | Adafruit SI1145 (Adafruit) | D2 (SDA), D1 (SCL) |
+
